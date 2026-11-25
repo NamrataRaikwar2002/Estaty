@@ -1,0 +1,876 @@
+diff --git a/node_modules/agora-react-native-rtm/android/build/.transforms/c1d709b448844a3b4671a8a43619c6d6/results.bin b/node_modules/agora-react-native-rtm/android/build/.transforms/c1d709b448844a3b4671a8a43619c6d6/results.bin
+new file mode 100644
+index 0000000..7ed749e
+--- /dev/null
++++ b/node_modules/agora-react-native-rtm/android/build/.transforms/c1d709b448844a3b4671a8a43619c6d6/results.bin
+@@ -0,0 +1 @@
++o/bundleLibRuntimeToDirDebug
+diff --git a/node_modules/agora-react-native-rtm/android/build/.transforms/c1d709b448844a3b4671a8a43619c6d6/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/io/agora/rtm/ng/react/AgoraRtmNgModule.dex b/node_modules/agora-react-native-rtm/android/build/.transforms/c1d709b448844a3b4671a8a43619c6d6/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/io/agora/rtm/ng/react/AgoraRtmNgModule.dex
+new file mode 100644
+index 0000000..3b99d21
+Binary files /dev/null and b/node_modules/agora-react-native-rtm/android/build/.transforms/c1d709b448844a3b4671a8a43619c6d6/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/io/agora/rtm/ng/react/AgoraRtmNgModule.dex differ
+diff --git a/node_modules/agora-react-native-rtm/android/build/.transforms/c1d709b448844a3b4671a8a43619c6d6/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/io/agora/rtm/ng/react/AgoraRtmNgPackage.dex b/node_modules/agora-react-native-rtm/android/build/.transforms/c1d709b448844a3b4671a8a43619c6d6/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/io/agora/rtm/ng/react/AgoraRtmNgPackage.dex
+new file mode 100644
+index 0000000..3c8ba1a
+Binary files /dev/null and b/node_modules/agora-react-native-rtm/android/build/.transforms/c1d709b448844a3b4671a8a43619c6d6/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/io/agora/rtm/ng/react/AgoraRtmNgPackage.dex differ
+diff --git a/node_modules/agora-react-native-rtm/android/build/.transforms/c1d709b448844a3b4671a8a43619c6d6/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/io/agora/rtm/ng/react/AgoraRtmNgSpec.dex b/node_modules/agora-react-native-rtm/android/build/.transforms/c1d709b448844a3b4671a8a43619c6d6/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/io/agora/rtm/ng/react/AgoraRtmNgSpec.dex
+new file mode 100644
+index 0000000..599db0d
+Binary files /dev/null and b/node_modules/agora-react-native-rtm/android/build/.transforms/c1d709b448844a3b4671a8a43619c6d6/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/io/agora/rtm/ng/react/AgoraRtmNgSpec.dex differ
+diff --git a/node_modules/agora-react-native-rtm/android/build/.transforms/c1d709b448844a3b4671a8a43619c6d6/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/io/agora/rtm/ng/react/BuildConfig.dex b/node_modules/agora-react-native-rtm/android/build/.transforms/c1d709b448844a3b4671a8a43619c6d6/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/io/agora/rtm/ng/react/BuildConfig.dex
+new file mode 100644
+index 0000000..85739c7
+Binary files /dev/null and b/node_modules/agora-react-native-rtm/android/build/.transforms/c1d709b448844a3b4671a8a43619c6d6/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/io/agora/rtm/ng/react/BuildConfig.dex differ
+diff --git a/node_modules/agora-react-native-rtm/android/build/.transforms/c1d709b448844a3b4671a8a43619c6d6/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/io/agora/rtm/ng/react/NativeAgoraRtmNgSpec.dex b/node_modules/agora-react-native-rtm/android/build/.transforms/c1d709b448844a3b4671a8a43619c6d6/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/io/agora/rtm/ng/react/NativeAgoraRtmNgSpec.dex
+new file mode 100644
+index 0000000..755a3a8
+Binary files /dev/null and b/node_modules/agora-react-native-rtm/android/build/.transforms/c1d709b448844a3b4671a8a43619c6d6/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/io/agora/rtm/ng/react/NativeAgoraRtmNgSpec.dex differ
+diff --git a/node_modules/agora-react-native-rtm/android/build/.transforms/c1d709b448844a3b4671a8a43619c6d6/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_global-synthetics/io/agora/rtm/ng/react/AgoraRtmNgPackage$$InternalSyntheticLambda$2$09fe2caf377736fe2e296e726b4d6c11bf4d69541f0705cb1bd6aa1824a54faf$0.globals b/node_modules/agora-react-native-rtm/android/build/.transforms/c1d709b448844a3b4671a8a43619c6d6/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_global-synthetics/io/agora/rtm/ng/react/AgoraRtmNgPackage$$InternalSyntheticLambda$2$09fe2caf377736fe2e296e726b4d6c11bf4d69541f0705cb1bd6aa1824a54faf$0.globals
+new file mode 100644
+index 0000000..cf6ce7d
+Binary files /dev/null and b/node_modules/agora-react-native-rtm/android/build/.transforms/c1d709b448844a3b4671a8a43619c6d6/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_global-synthetics/io/agora/rtm/ng/react/AgoraRtmNgPackage$$InternalSyntheticLambda$2$09fe2caf377736fe2e296e726b4d6c11bf4d69541f0705cb1bd6aa1824a54faf$0.globals differ
+diff --git a/node_modules/agora-react-native-rtm/android/build/.transforms/c1d709b448844a3b4671a8a43619c6d6/transformed/bundleLibRuntimeToDirDebug/desugar_graph.bin b/node_modules/agora-react-native-rtm/android/build/.transforms/c1d709b448844a3b4671a8a43619c6d6/transformed/bundleLibRuntimeToDirDebug/desugar_graph.bin
+new file mode 100644
+index 0000000..601f245
+Binary files /dev/null and b/node_modules/agora-react-native-rtm/android/build/.transforms/c1d709b448844a3b4671a8a43619c6d6/transformed/bundleLibRuntimeToDirDebug/desugar_graph.bin differ
+diff --git a/node_modules/agora-react-native-rtm/android/build/generated/source/buildConfig/debug/io/agora/rtm/ng/react/BuildConfig.java b/node_modules/agora-react-native-rtm/android/build/generated/source/buildConfig/debug/io/agora/rtm/ng/react/BuildConfig.java
+new file mode 100644
+index 0000000..f972aa4
+--- /dev/null
++++ b/node_modules/agora-react-native-rtm/android/build/generated/source/buildConfig/debug/io/agora/rtm/ng/react/BuildConfig.java
+@@ -0,0 +1,14 @@
++/**
++ * Automatically generated file. DO NOT MODIFY
++ */
++package io.agora.rtm.ng.react;
++
++public final class BuildConfig {
++  public static final boolean DEBUG = Boolean.parseBoolean("true");
++  public static final String LIBRARY_PACKAGE_NAME = "io.agora.rtm.ng.react";
++  public static final String BUILD_TYPE = "debug";
++  // Field from default config.
++  public static final String CODEGEN_MODULE_REGISTRATION = null;
++  // Field from default config.
++  public static final boolean IS_NEW_ARCHITECTURE_ENABLED = true;
++}
+diff --git a/node_modules/agora-react-native-rtm/android/build/generated/source/codegen/java/io/agora/rtm/ng/react/NativeAgoraRtmNgSpec.java b/node_modules/agora-react-native-rtm/android/build/generated/source/codegen/java/io/agora/rtm/ng/react/NativeAgoraRtmNgSpec.java
+new file mode 100644
+index 0000000..a23ec7b
+--- /dev/null
++++ b/node_modules/agora-react-native-rtm/android/build/generated/source/codegen/java/io/agora/rtm/ng/react/NativeAgoraRtmNgSpec.java
+@@ -0,0 +1,59 @@
++
++/**
++ * This code was generated by [react-native-codegen](https://www.npmjs.com/package/react-native-codegen).
++ *
++ * Do not edit this file as changes may cause incorrect behavior and will be lost
++ * once the code is regenerated.
++ *
++ * @generated by codegen project: GenerateModuleJavaSpec.js
++ *
++ * @nolint
++ */
++
++package io.agora.rtm.ng.react;
++
++import com.facebook.proguard.annotations.DoNotStrip;
++import com.facebook.react.bridge.Promise;
++import com.facebook.react.bridge.ReactApplicationContext;
++import com.facebook.react.bridge.ReactContextBaseJavaModule;
++import com.facebook.react.bridge.ReactMethod;
++import com.facebook.react.bridge.ReadableMap;
++import com.facebook.react.turbomodule.core.interfaces.TurboModule;
++import javax.annotation.Nonnull;
++
++public abstract class NativeAgoraRtmNgSpec extends ReactContextBaseJavaModule implements TurboModule {
++  public static final String NAME = "AgoraRtmNg";
++
++  public NativeAgoraRtmNgSpec(ReactApplicationContext reactContext) {
++    super(reactContext);
++  }
++
++  @Override
++  public @Nonnull String getName() {
++    return NAME;
++  }
++
++  @ReactMethod(isBlockingSynchronousMethod = true)
++  @DoNotStrip
++  public abstract boolean newIrisRtmEngine();
++
++  @ReactMethod(isBlockingSynchronousMethod = true)
++  @DoNotStrip
++  public abstract boolean destroyIrisRtmEngine();
++
++  @ReactMethod(isBlockingSynchronousMethod = true)
++  @DoNotStrip
++  public abstract String callApi(ReadableMap args);
++
++  @ReactMethod
++  @DoNotStrip
++  public abstract void showRPSystemBroadcastPickerView(boolean showsMicrophoneButton, Promise promise);
++
++  @ReactMethod
++  @DoNotStrip
++  public abstract void addListener(String eventName);
++
++  @ReactMethod
++  @DoNotStrip
++  public abstract void removeListeners(double count);
++}
+diff --git a/node_modules/agora-react-native-rtm/android/build/generated/source/codegen/jni/AgoraRtmNgSpec-generated.cpp b/node_modules/agora-react-native-rtm/android/build/generated/source/codegen/jni/AgoraRtmNgSpec-generated.cpp
+new file mode 100644
+index 0000000..b63c2cb
+--- /dev/null
++++ b/node_modules/agora-react-native-rtm/android/build/generated/source/codegen/jni/AgoraRtmNgSpec-generated.cpp
+@@ -0,0 +1,62 @@
++
++/**
++ * This code was generated by [react-native-codegen](https://www.npmjs.com/package/react-native-codegen).
++ *
++ * Do not edit this file as changes may cause incorrect behavior and will be lost
++ * once the code is regenerated.
++ *
++ * @generated by codegen project: GenerateModuleJniCpp.js
++ */
++
++#include "AgoraRtmNgSpec.h"
++
++namespace facebook::react {
++
++static facebook::jsi::Value __hostFunction_NativeAgoraRtmNgSpecJSI_newIrisRtmEngine(facebook::jsi::Runtime& rt, TurboModule &turboModule, const facebook::jsi::Value* args, size_t count) {
++  static jmethodID cachedMethodId = nullptr;
++  return static_cast<JavaTurboModule &>(turboModule).invokeJavaMethod(rt, BooleanKind, "newIrisRtmEngine", "()Z", args, count, cachedMethodId);
++}
++
++static facebook::jsi::Value __hostFunction_NativeAgoraRtmNgSpecJSI_destroyIrisRtmEngine(facebook::jsi::Runtime& rt, TurboModule &turboModule, const facebook::jsi::Value* args, size_t count) {
++  static jmethodID cachedMethodId = nullptr;
++  return static_cast<JavaTurboModule &>(turboModule).invokeJavaMethod(rt, BooleanKind, "destroyIrisRtmEngine", "()Z", args, count, cachedMethodId);
++}
++
++static facebook::jsi::Value __hostFunction_NativeAgoraRtmNgSpecJSI_callApi(facebook::jsi::Runtime& rt, TurboModule &turboModule, const facebook::jsi::Value* args, size_t count) {
++  static jmethodID cachedMethodId = nullptr;
++  return static_cast<JavaTurboModule &>(turboModule).invokeJavaMethod(rt, StringKind, "callApi", "(Lcom/facebook/react/bridge/ReadableMap;)Ljava/lang/String;", args, count, cachedMethodId);
++}
++
++static facebook::jsi::Value __hostFunction_NativeAgoraRtmNgSpecJSI_showRPSystemBroadcastPickerView(facebook::jsi::Runtime& rt, TurboModule &turboModule, const facebook::jsi::Value* args, size_t count) {
++  static jmethodID cachedMethodId = nullptr;
++  return static_cast<JavaTurboModule &>(turboModule).invokeJavaMethod(rt, PromiseKind, "showRPSystemBroadcastPickerView", "(ZLcom/facebook/react/bridge/Promise;)V", args, count, cachedMethodId);
++}
++
++static facebook::jsi::Value __hostFunction_NativeAgoraRtmNgSpecJSI_addListener(facebook::jsi::Runtime& rt, TurboModule &turboModule, const facebook::jsi::Value* args, size_t count) {
++  static jmethodID cachedMethodId = nullptr;
++  return static_cast<JavaTurboModule &>(turboModule).invokeJavaMethod(rt, VoidKind, "addListener", "(Ljava/lang/String;)V", args, count, cachedMethodId);
++}
++
++static facebook::jsi::Value __hostFunction_NativeAgoraRtmNgSpecJSI_removeListeners(facebook::jsi::Runtime& rt, TurboModule &turboModule, const facebook::jsi::Value* args, size_t count) {
++  static jmethodID cachedMethodId = nullptr;
++  return static_cast<JavaTurboModule &>(turboModule).invokeJavaMethod(rt, VoidKind, "removeListeners", "(D)V", args, count, cachedMethodId);
++}
++
++NativeAgoraRtmNgSpecJSI::NativeAgoraRtmNgSpecJSI(const JavaTurboModule::InitParams &params)
++  : JavaTurboModule(params) {
++  methodMap_["newIrisRtmEngine"] = MethodMetadata {0, __hostFunction_NativeAgoraRtmNgSpecJSI_newIrisRtmEngine};
++  methodMap_["destroyIrisRtmEngine"] = MethodMetadata {0, __hostFunction_NativeAgoraRtmNgSpecJSI_destroyIrisRtmEngine};
++  methodMap_["callApi"] = MethodMetadata {1, __hostFunction_NativeAgoraRtmNgSpecJSI_callApi};
++  methodMap_["showRPSystemBroadcastPickerView"] = MethodMetadata {1, __hostFunction_NativeAgoraRtmNgSpecJSI_showRPSystemBroadcastPickerView};
++  methodMap_["addListener"] = MethodMetadata {1, __hostFunction_NativeAgoraRtmNgSpecJSI_addListener};
++  methodMap_["removeListeners"] = MethodMetadata {1, __hostFunction_NativeAgoraRtmNgSpecJSI_removeListeners};
++}
++
++std::shared_ptr<TurboModule> AgoraRtmNgSpec_ModuleProvider(const std::string &moduleName, const JavaTurboModule::InitParams &params) {
++  if (moduleName == "AgoraRtmNg") {
++    return std::make_shared<NativeAgoraRtmNgSpecJSI>(params);
++  }
++  return nullptr;
++}
++
++} // namespace facebook::react
+diff --git a/node_modules/agora-react-native-rtm/android/build/generated/source/codegen/jni/AgoraRtmNgSpec.h b/node_modules/agora-react-native-rtm/android/build/generated/source/codegen/jni/AgoraRtmNgSpec.h
+new file mode 100644
+index 0000000..2eadecf
+--- /dev/null
++++ b/node_modules/agora-react-native-rtm/android/build/generated/source/codegen/jni/AgoraRtmNgSpec.h
+@@ -0,0 +1,31 @@
++
++/**
++ * This code was generated by [react-native-codegen](https://www.npmjs.com/package/react-native-codegen).
++ *
++ * Do not edit this file as changes may cause incorrect behavior and will be lost
++ * once the code is regenerated.
++ *
++ * @generated by codegen project: GenerateModuleJniH.js
++ */
++
++#pragma once
++
++#include <ReactCommon/JavaTurboModule.h>
++#include <ReactCommon/TurboModule.h>
++#include <jsi/jsi.h>
++
++namespace facebook::react {
++
++/**
++ * JNI C++ class for module 'NativeAgoraRtmNg'
++ */
++class JSI_EXPORT NativeAgoraRtmNgSpecJSI : public JavaTurboModule {
++public:
++  NativeAgoraRtmNgSpecJSI(const JavaTurboModule::InitParams &params);
++};
++
++
++JSI_EXPORT
++std::shared_ptr<TurboModule> AgoraRtmNgSpec_ModuleProvider(const std::string &moduleName, const JavaTurboModule::InitParams &params);
++
++} // namespace facebook::react
+diff --git a/node_modules/agora-react-native-rtm/android/build/generated/source/codegen/jni/CMakeLists.txt b/node_modules/agora-react-native-rtm/android/build/generated/source/codegen/jni/CMakeLists.txt
+new file mode 100644
+index 0000000..7525755
+--- /dev/null
++++ b/node_modules/agora-react-native-rtm/android/build/generated/source/codegen/jni/CMakeLists.txt
+@@ -0,0 +1,28 @@
++# Copyright (c) Meta Platforms, Inc. and affiliates.
++#
++# This source code is licensed under the MIT license found in the
++# LICENSE file in the root directory of this source tree.
++
++cmake_minimum_required(VERSION 3.13)
++set(CMAKE_VERBOSE_MAKEFILE on)
++
++file(GLOB react_codegen_SRCS CONFIGURE_DEPENDS *.cpp react/renderer/components/AgoraRtmNgSpec/*.cpp)
++
++add_library(
++  react_codegen_AgoraRtmNgSpec
++  OBJECT
++  ${react_codegen_SRCS}
++)
++
++target_include_directories(react_codegen_AgoraRtmNgSpec PUBLIC . react/renderer/components/AgoraRtmNgSpec)
++
++target_link_libraries(
++  react_codegen_AgoraRtmNgSpec
++  fbjni
++  jsi
++  # We need to link different libraries based on whether we are building rncore or not, that's necessary
++  # because we want to break a circular dependency between react_codegen_rncore and reactnative
++  reactnative
++)
++
++target_compile_reactnative_options(react_codegen_AgoraRtmNgSpec PRIVATE)
+diff --git a/node_modules/agora-react-native-rtm/android/build/generated/source/codegen/jni/react/renderer/components/AgoraRtmNgSpec/AgoraRtmNgSpecJSI.h b/node_modules/agora-react-native-rtm/android/build/generated/source/codegen/jni/react/renderer/components/AgoraRtmNgSpec/AgoraRtmNgSpecJSI.h
+new file mode 100644
+index 0000000..5a3be04
+--- /dev/null
++++ b/node_modules/agora-react-native-rtm/android/build/generated/source/codegen/jni/react/renderer/components/AgoraRtmNgSpec/AgoraRtmNgSpecJSI.h
+@@ -0,0 +1,81 @@
++/**
++ * This code was generated by [react-native-codegen](https://www.npmjs.com/package/react-native-codegen).
++ *
++ * Do not edit this file as changes may cause incorrect behavior and will be lost
++ * once the code is regenerated.
++ *
++ * @generated by codegen project: GenerateModuleH.js
++ */
++
++#pragma once
++
++#include <ReactCommon/TurboModule.h>
++#include <react/bridging/Bridging.h>
++
++namespace facebook::react {
++
++
++template <typename T>
++class JSI_EXPORT NativeAgoraRtmNgCxxSpec : public TurboModule {
++public:
++  static constexpr std::string_view kModuleName = "AgoraRtmNg";
++
++protected:
++  NativeAgoraRtmNgCxxSpec(std::shared_ptr<CallInvoker> jsInvoker) : TurboModule(std::string{NativeAgoraRtmNgCxxSpec::kModuleName}, jsInvoker) {
++    methodMap_["newIrisRtmEngine"] = MethodMetadata {.argCount = 0, .invoker = __newIrisRtmEngine};
++    methodMap_["destroyIrisRtmEngine"] = MethodMetadata {.argCount = 0, .invoker = __destroyIrisRtmEngine};
++    methodMap_["callApi"] = MethodMetadata {.argCount = 1, .invoker = __callApi};
++    methodMap_["showRPSystemBroadcastPickerView"] = MethodMetadata {.argCount = 1, .invoker = __showRPSystemBroadcastPickerView};
++    methodMap_["addListener"] = MethodMetadata {.argCount = 1, .invoker = __addListener};
++    methodMap_["removeListeners"] = MethodMetadata {.argCount = 1, .invoker = __removeListeners};
++  }
++  
++private:
++  static jsi::Value __newIrisRtmEngine(jsi::Runtime &rt, TurboModule &turboModule, const jsi::Value* /*args*/, size_t /*count*/) {
++    static_assert(
++      bridging::getParameterCount(&T::newIrisRtmEngine) == 1,
++      "Expected newIrisRtmEngine(...) to have 1 parameters");
++    return bridging::callFromJs<bool>(rt, &T::newIrisRtmEngine,  static_cast<NativeAgoraRtmNgCxxSpec*>(&turboModule)->jsInvoker_, static_cast<T*>(&turboModule));
++  }
++
++  static jsi::Value __destroyIrisRtmEngine(jsi::Runtime &rt, TurboModule &turboModule, const jsi::Value* /*args*/, size_t /*count*/) {
++    static_assert(
++      bridging::getParameterCount(&T::destroyIrisRtmEngine) == 1,
++      "Expected destroyIrisRtmEngine(...) to have 1 parameters");
++    return bridging::callFromJs<bool>(rt, &T::destroyIrisRtmEngine,  static_cast<NativeAgoraRtmNgCxxSpec*>(&turboModule)->jsInvoker_, static_cast<T*>(&turboModule));
++  }
++
++  static jsi::Value __callApi(jsi::Runtime &rt, TurboModule &turboModule, const jsi::Value* args, size_t count) {
++    static_assert(
++      bridging::getParameterCount(&T::callApi) == 2,
++      "Expected callApi(...) to have 2 parameters");
++    return bridging::callFromJs<jsi::String>(rt, &T::callApi,  static_cast<NativeAgoraRtmNgCxxSpec*>(&turboModule)->jsInvoker_, static_cast<T*>(&turboModule),
++      count <= 0 ? throw jsi::JSError(rt, "Expected argument in position 0 to be passed") : args[0].asObject(rt));
++  }
++
++  static jsi::Value __showRPSystemBroadcastPickerView(jsi::Runtime &rt, TurboModule &turboModule, const jsi::Value* args, size_t count) {
++    static_assert(
++      bridging::getParameterCount(&T::showRPSystemBroadcastPickerView) == 2,
++      "Expected showRPSystemBroadcastPickerView(...) to have 2 parameters");
++    return bridging::callFromJs<jsi::Value>(rt, &T::showRPSystemBroadcastPickerView,  static_cast<NativeAgoraRtmNgCxxSpec*>(&turboModule)->jsInvoker_, static_cast<T*>(&turboModule),
++      count <= 0 ? throw jsi::JSError(rt, "Expected argument in position 0 to be passed") : args[0].asBool());
++  }
++
++  static jsi::Value __addListener(jsi::Runtime &rt, TurboModule &turboModule, const jsi::Value* args, size_t count) {
++    static_assert(
++      bridging::getParameterCount(&T::addListener) == 2,
++      "Expected addListener(...) to have 2 parameters");
++    bridging::callFromJs<void>(rt, &T::addListener,  static_cast<NativeAgoraRtmNgCxxSpec*>(&turboModule)->jsInvoker_, static_cast<T*>(&turboModule),
++      count <= 0 ? throw jsi::JSError(rt, "Expected argument in position 0 to be passed") : args[0].asString(rt));return jsi::Value::undefined();
++  }
++
++  static jsi::Value __removeListeners(jsi::Runtime &rt, TurboModule &turboModule, const jsi::Value* args, size_t count) {
++    static_assert(
++      bridging::getParameterCount(&T::removeListeners) == 2,
++      "Expected removeListeners(...) to have 2 parameters");
++    bridging::callFromJs<void>(rt, &T::removeListeners,  static_cast<NativeAgoraRtmNgCxxSpec*>(&turboModule)->jsInvoker_, static_cast<T*>(&turboModule),
++      count <= 0 ? throw jsi::JSError(rt, "Expected argument in position 0 to be passed") : args[0].asNumber());return jsi::Value::undefined();
++  }
++};
++
++} // namespace facebook::react
+diff --git a/node_modules/agora-react-native-rtm/android/build/generated/source/codegen/jni/react/renderer/components/AgoraRtmNgSpec/ComponentDescriptors.cpp b/node_modules/agora-react-native-rtm/android/build/generated/source/codegen/jni/react/renderer/components/AgoraRtmNgSpec/ComponentDescriptors.cpp
+new file mode 100644
+index 0000000..f46d915
+--- /dev/null
++++ b/node_modules/agora-react-native-rtm/android/build/generated/source/codegen/jni/react/renderer/components/AgoraRtmNgSpec/ComponentDescriptors.cpp
+@@ -0,0 +1,22 @@
++
++/**
++ * This code was generated by [react-native-codegen](https://www.npmjs.com/package/react-native-codegen).
++ *
++ * Do not edit this file as changes may cause incorrect behavior and will be lost
++ * once the code is regenerated.
++ *
++ * @generated by codegen project: GenerateComponentDescriptorCpp.js
++ */
++
++#include <react/renderer/components/AgoraRtmNgSpec/ComponentDescriptors.h>
++#include <react/renderer/core/ConcreteComponentDescriptor.h>
++#include <react/renderer/componentregistry/ComponentDescriptorProviderRegistry.h>
++
++namespace facebook::react {
++
++void AgoraRtmNgSpec_registerComponentDescriptorsFromCodegen(
++  std::shared_ptr<const ComponentDescriptorProviderRegistry> registry) {
++
++}
++
++} // namespace facebook::react
+diff --git a/node_modules/agora-react-native-rtm/android/build/generated/source/codegen/jni/react/renderer/components/AgoraRtmNgSpec/ComponentDescriptors.h b/node_modules/agora-react-native-rtm/android/build/generated/source/codegen/jni/react/renderer/components/AgoraRtmNgSpec/ComponentDescriptors.h
+new file mode 100644
+index 0000000..473d420
+--- /dev/null
++++ b/node_modules/agora-react-native-rtm/android/build/generated/source/codegen/jni/react/renderer/components/AgoraRtmNgSpec/ComponentDescriptors.h
+@@ -0,0 +1,24 @@
++
++/**
++ * This code was generated by [react-native-codegen](https://www.npmjs.com/package/react-native-codegen).
++ *
++ * Do not edit this file as changes may cause incorrect behavior and will be lost
++ * once the code is regenerated.
++ *
++ * @generated by codegen project: GenerateComponentDescriptorH.js
++ */
++
++#pragma once
++
++#include <react/renderer/components/AgoraRtmNgSpec/ShadowNodes.h>
++#include <react/renderer/core/ConcreteComponentDescriptor.h>
++#include <react/renderer/componentregistry/ComponentDescriptorProviderRegistry.h>
++
++namespace facebook::react {
++
++
++
++void AgoraRtmNgSpec_registerComponentDescriptorsFromCodegen(
++  std::shared_ptr<const ComponentDescriptorProviderRegistry> registry);
++
++} // namespace facebook::react
+diff --git a/node_modules/agora-react-native-rtm/android/build/generated/source/codegen/jni/react/renderer/components/AgoraRtmNgSpec/EventEmitters.cpp b/node_modules/agora-react-native-rtm/android/build/generated/source/codegen/jni/react/renderer/components/AgoraRtmNgSpec/EventEmitters.cpp
+new file mode 100644
+index 0000000..2df0a03
+--- /dev/null
++++ b/node_modules/agora-react-native-rtm/android/build/generated/source/codegen/jni/react/renderer/components/AgoraRtmNgSpec/EventEmitters.cpp
+@@ -0,0 +1,16 @@
++
++/**
++ * This code was generated by [react-native-codegen](https://www.npmjs.com/package/react-native-codegen).
++ *
++ * Do not edit this file as changes may cause incorrect behavior and will be lost
++ * once the code is regenerated.
++ *
++ * @generated by codegen project: GenerateEventEmitterCpp.js
++ */
++
++#include <react/renderer/components/AgoraRtmNgSpec/EventEmitters.h>
++
++
++namespace facebook::react {
++
++} // namespace facebook::react
+diff --git a/node_modules/agora-react-native-rtm/android/build/generated/source/codegen/jni/react/renderer/components/AgoraRtmNgSpec/EventEmitters.h b/node_modules/agora-react-native-rtm/android/build/generated/source/codegen/jni/react/renderer/components/AgoraRtmNgSpec/EventEmitters.h
+new file mode 100644
+index 0000000..2845a63
+--- /dev/null
++++ b/node_modules/agora-react-native-rtm/android/build/generated/source/codegen/jni/react/renderer/components/AgoraRtmNgSpec/EventEmitters.h
+@@ -0,0 +1,17 @@
++
++/**
++ * This code was generated by [react-native-codegen](https://www.npmjs.com/package/react-native-codegen).
++ *
++ * Do not edit this file as changes may cause incorrect behavior and will be lost
++ * once the code is regenerated.
++ *
++ * @generated by codegen project: GenerateEventEmitterH.js
++ */
++#pragma once
++
++#include <react/renderer/components/view/ViewEventEmitter.h>
++
++
++namespace facebook::react {
++
++} // namespace facebook::react
+diff --git a/node_modules/agora-react-native-rtm/android/build/generated/source/codegen/jni/react/renderer/components/AgoraRtmNgSpec/Props.cpp b/node_modules/agora-react-native-rtm/android/build/generated/source/codegen/jni/react/renderer/components/AgoraRtmNgSpec/Props.cpp
+new file mode 100644
+index 0000000..73716d1
+--- /dev/null
++++ b/node_modules/agora-react-native-rtm/android/build/generated/source/codegen/jni/react/renderer/components/AgoraRtmNgSpec/Props.cpp
+@@ -0,0 +1,19 @@
++
++/**
++ * This code was generated by [react-native-codegen](https://www.npmjs.com/package/react-native-codegen).
++ *
++ * Do not edit this file as changes may cause incorrect behavior and will be lost
++ * once the code is regenerated.
++ *
++ * @generated by codegen project: GeneratePropsCpp.js
++ */
++
++#include <react/renderer/components/AgoraRtmNgSpec/Props.h>
++#include <react/renderer/core/PropsParserContext.h>
++#include <react/renderer/core/propsConversions.h>
++
++namespace facebook::react {
++
++
++
++} // namespace facebook::react
+diff --git a/node_modules/agora-react-native-rtm/android/build/generated/source/codegen/jni/react/renderer/components/AgoraRtmNgSpec/Props.h b/node_modules/agora-react-native-rtm/android/build/generated/source/codegen/jni/react/renderer/components/AgoraRtmNgSpec/Props.h
+new file mode 100644
+index 0000000..870864b
+--- /dev/null
++++ b/node_modules/agora-react-native-rtm/android/build/generated/source/codegen/jni/react/renderer/components/AgoraRtmNgSpec/Props.h
+@@ -0,0 +1,18 @@
++
++/**
++ * This code was generated by [react-native-codegen](https://www.npmjs.com/package/react-native-codegen).
++ *
++ * Do not edit this file as changes may cause incorrect behavior and will be lost
++ * once the code is regenerated.
++ *
++ * @generated by codegen project: GeneratePropsH.js
++ */
++#pragma once
++
++
++
++namespace facebook::react {
++
++
++
++} // namespace facebook::react
+diff --git a/node_modules/agora-react-native-rtm/android/build/generated/source/codegen/jni/react/renderer/components/AgoraRtmNgSpec/ShadowNodes.cpp b/node_modules/agora-react-native-rtm/android/build/generated/source/codegen/jni/react/renderer/components/AgoraRtmNgSpec/ShadowNodes.cpp
+new file mode 100644
+index 0000000..c869359
+--- /dev/null
++++ b/node_modules/agora-react-native-rtm/android/build/generated/source/codegen/jni/react/renderer/components/AgoraRtmNgSpec/ShadowNodes.cpp
+@@ -0,0 +1,17 @@
++
++/**
++ * This code was generated by [react-native-codegen](https://www.npmjs.com/package/react-native-codegen).
++ *
++ * Do not edit this file as changes may cause incorrect behavior and will be lost
++ * once the code is regenerated.
++ *
++ * @generated by codegen project: GenerateShadowNodeCpp.js
++ */
++
++#include <react/renderer/components/AgoraRtmNgSpec/ShadowNodes.h>
++
++namespace facebook::react {
++
++
++
++} // namespace facebook::react
+diff --git a/node_modules/agora-react-native-rtm/android/build/generated/source/codegen/jni/react/renderer/components/AgoraRtmNgSpec/ShadowNodes.h b/node_modules/agora-react-native-rtm/android/build/generated/source/codegen/jni/react/renderer/components/AgoraRtmNgSpec/ShadowNodes.h
+new file mode 100644
+index 0000000..28f153d
+--- /dev/null
++++ b/node_modules/agora-react-native-rtm/android/build/generated/source/codegen/jni/react/renderer/components/AgoraRtmNgSpec/ShadowNodes.h
+@@ -0,0 +1,23 @@
++
++/**
++ * This code was generated by [react-native-codegen](https://www.npmjs.com/package/react-native-codegen).
++ *
++ * Do not edit this file as changes may cause incorrect behavior and will be lost
++ * once the code is regenerated.
++ *
++ * @generated by codegen project: GenerateShadowNodeH.js
++ */
++
++#pragma once
++
++#include <react/renderer/components/AgoraRtmNgSpec/EventEmitters.h>
++#include <react/renderer/components/AgoraRtmNgSpec/Props.h>
++#include <react/renderer/components/AgoraRtmNgSpec/States.h>
++#include <react/renderer/components/view/ConcreteViewShadowNode.h>
++#include <jsi/jsi.h>
++
++namespace facebook::react {
++
++
++
++} // namespace facebook::react
+diff --git a/node_modules/agora-react-native-rtm/android/build/generated/source/codegen/jni/react/renderer/components/AgoraRtmNgSpec/States.cpp b/node_modules/agora-react-native-rtm/android/build/generated/source/codegen/jni/react/renderer/components/AgoraRtmNgSpec/States.cpp
+new file mode 100644
+index 0000000..646fb59
+--- /dev/null
++++ b/node_modules/agora-react-native-rtm/android/build/generated/source/codegen/jni/react/renderer/components/AgoraRtmNgSpec/States.cpp
+@@ -0,0 +1,16 @@
++
++/**
++ * This code was generated by [react-native-codegen](https://www.npmjs.com/package/react-native-codegen).
++ *
++ * Do not edit this file as changes may cause incorrect behavior and will be lost
++ * once the code is regenerated.
++ *
++ * @generated by codegen project: GenerateStateCpp.js
++ */
++#include <react/renderer/components/AgoraRtmNgSpec/States.h>
++
++namespace facebook::react {
++
++
++
++} // namespace facebook::react
+diff --git a/node_modules/agora-react-native-rtm/android/build/generated/source/codegen/jni/react/renderer/components/AgoraRtmNgSpec/States.h b/node_modules/agora-react-native-rtm/android/build/generated/source/codegen/jni/react/renderer/components/AgoraRtmNgSpec/States.h
+new file mode 100644
+index 0000000..2e55bce
+--- /dev/null
++++ b/node_modules/agora-react-native-rtm/android/build/generated/source/codegen/jni/react/renderer/components/AgoraRtmNgSpec/States.h
+@@ -0,0 +1,20 @@
++/**
++ * This code was generated by [react-native-codegen](https://www.npmjs.com/package/react-native-codegen).
++ *
++ * Do not edit this file as changes may cause incorrect behavior and will be lost
++ * once the code is regenerated.
++ *
++ * @generated by codegen project: GenerateStateH.js
++ */
++#pragma once
++
++#include <react/renderer/core/StateData.h>
++#ifdef RN_SERIALIZABLE_STATE
++#include <folly/dynamic.h>
++#endif
++
++namespace facebook::react {
++
++
++
++} // namespace facebook::react
+\ No newline at end of file
+diff --git a/node_modules/agora-react-native-rtm/android/build/generated/source/codegen/schema.json b/node_modules/agora-react-native-rtm/android/build/generated/source/codegen/schema.json
+new file mode 100644
+index 0000000..5798592
+--- /dev/null
++++ b/node_modules/agora-react-native-rtm/android/build/generated/source/codegen/schema.json
+@@ -0,0 +1 @@
++{"libraryName":"","modules":{"NativeAgoraRtmNg":{"type":"NativeModule","aliasMap":{},"enumMap":{},"spec":{"eventEmitters":[],"methods":[{"name":"newIrisRtmEngine","optional":false,"typeAnnotation":{"type":"FunctionTypeAnnotation","returnTypeAnnotation":{"type":"BooleanTypeAnnotation"},"params":[]}},{"name":"destroyIrisRtmEngine","optional":false,"typeAnnotation":{"type":"FunctionTypeAnnotation","returnTypeAnnotation":{"type":"BooleanTypeAnnotation"},"params":[]}},{"name":"callApi","optional":false,"typeAnnotation":{"type":"FunctionTypeAnnotation","returnTypeAnnotation":{"type":"StringTypeAnnotation"},"params":[{"name":"args","optional":false,"typeAnnotation":{"type":"ObjectTypeAnnotation","properties":[{"name":"funcName","optional":false,"typeAnnotation":{"type":"StringTypeAnnotation"}},{"name":"params","optional":false,"typeAnnotation":{"type":"StringTypeAnnotation"}},{"name":"buffers","optional":true,"typeAnnotation":{"type":"ArrayTypeAnnotation","elementType":{"type":"StringTypeAnnotation"}}}]}}]}},{"name":"showRPSystemBroadcastPickerView","optional":false,"typeAnnotation":{"type":"FunctionTypeAnnotation","returnTypeAnnotation":{"type":"PromiseTypeAnnotation","elementType":{"type":"VoidTypeAnnotation"}},"params":[{"name":"showsMicrophoneButton","optional":false,"typeAnnotation":{"type":"BooleanTypeAnnotation"}}]}},{"name":"addListener","optional":false,"typeAnnotation":{"type":"FunctionTypeAnnotation","returnTypeAnnotation":{"type":"VoidTypeAnnotation"},"params":[{"name":"eventName","optional":false,"typeAnnotation":{"type":"StringTypeAnnotation"}}]}},{"name":"removeListeners","optional":false,"typeAnnotation":{"type":"FunctionTypeAnnotation","returnTypeAnnotation":{"type":"VoidTypeAnnotation"},"params":[{"name":"count","optional":false,"typeAnnotation":{"type":"NumberTypeAnnotation"}}]}}]},"moduleName":"AgoraRtmNg"}}}
+\ No newline at end of file
+diff --git a/node_modules/agora-react-native-rtm/android/build/intermediates/aapt_friendly_merged_manifests/debug/processDebugManifest/aapt/AndroidManifest.xml b/node_modules/agora-react-native-rtm/android/build/intermediates/aapt_friendly_merged_manifests/debug/processDebugManifest/aapt/AndroidManifest.xml
+new file mode 100644
+index 0000000..548fe8b
+--- /dev/null
++++ b/node_modules/agora-react-native-rtm/android/build/intermediates/aapt_friendly_merged_manifests/debug/processDebugManifest/aapt/AndroidManifest.xml
+@@ -0,0 +1,11 @@
++<?xml version="1.0" encoding="utf-8"?>
++<manifest xmlns:android="http://schemas.android.com/apk/res/android"
++    package="io.agora.rtm.ng.react" >
++
++    <uses-sdk android:minSdkVersion="24" />
++
++    <uses-permission android:name="android.permission.INTERNET" />
++    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
++    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
++
++</manifest>
+\ No newline at end of file
+diff --git a/node_modules/agora-react-native-rtm/android/build/intermediates/aapt_friendly_merged_manifests/debug/processDebugManifest/aapt/output-metadata.json b/node_modules/agora-react-native-rtm/android/build/intermediates/aapt_friendly_merged_manifests/debug/processDebugManifest/aapt/output-metadata.json
+new file mode 100644
+index 0000000..e0c769f
+--- /dev/null
++++ b/node_modules/agora-react-native-rtm/android/build/intermediates/aapt_friendly_merged_manifests/debug/processDebugManifest/aapt/output-metadata.json
+@@ -0,0 +1,18 @@
++{
++  "version": 3,
++  "artifactType": {
++    "type": "AAPT_FRIENDLY_MERGED_MANIFESTS",
++    "kind": "Directory"
++  },
++  "applicationId": "io.agora.rtm.ng.react",
++  "variantName": "debug",
++  "elements": [
++    {
++      "type": "SINGLE",
++      "filters": [],
++      "attributes": [],
++      "outputFile": "AndroidManifest.xml"
++    }
++  ],
++  "elementType": "File"
++}
+\ No newline at end of file
+diff --git a/node_modules/agora-react-native-rtm/android/build/intermediates/aar_metadata/debug/writeDebugAarMetadata/aar-metadata.properties b/node_modules/agora-react-native-rtm/android/build/intermediates/aar_metadata/debug/writeDebugAarMetadata/aar-metadata.properties
+new file mode 100644
+index 0000000..b4c821b
+--- /dev/null
++++ b/node_modules/agora-react-native-rtm/android/build/intermediates/aar_metadata/debug/writeDebugAarMetadata/aar-metadata.properties
+@@ -0,0 +1,7 @@
++aarFormatVersion=1.0
++aarMetadataVersion=1.0
++minCompileSdk=37
++minCompileMinorSdk=0
++minCompileSdkExtension=0
++minAndroidGradlePluginVersion=1.0.0
++coreLibraryDesugaringEnabled=false
+diff --git a/node_modules/agora-react-native-rtm/android/build/intermediates/android_res_source_set_path_map/debug/mapDebugSourceSetPaths/file-map.txt b/node_modules/agora-react-native-rtm/android/build/intermediates/android_res_source_set_path_map/debug/mapDebugSourceSetPaths/file-map.txt
+new file mode 100644
+index 0000000..27ca1ad
+--- /dev/null
++++ b/node_modules/agora-react-native-rtm/android/build/intermediates/android_res_source_set_path_map/debug/mapDebugSourceSetPaths/file-map.txt
+@@ -0,0 +1,9 @@
++io.agora.rtm.ng.react.agora-react-native-rtm-pngs-0 /Users/namrataraikwar/Estaty/node_modules/agora-react-native-rtm/android/build/generated/res/pngs/debug
++io.agora.rtm.ng.react.agora-react-native-rtm-updated_navigation_xml-1 /Users/namrataraikwar/Estaty/node_modules/agora-react-native-rtm/android/build/generated/updated_navigation_xml/debug
++io.agora.rtm.ng.react.agora-react-native-rtm-mergeDebugResources-2 /Users/namrataraikwar/Estaty/node_modules/agora-react-native-rtm/android/build/intermediates/incremental/debug/mergeDebugResources/merged.dir
++io.agora.rtm.ng.react.agora-react-native-rtm-mergeDebugResources-3 /Users/namrataraikwar/Estaty/node_modules/agora-react-native-rtm/android/build/intermediates/incremental/debug/mergeDebugResources/stripped.dir
++io.agora.rtm.ng.react.agora-react-native-rtm-debug-4 /Users/namrataraikwar/Estaty/node_modules/agora-react-native-rtm/android/build/intermediates/merged_res/debug/mergeDebugResources
++io.agora.rtm.ng.react.agora-react-native-rtm-debug-5 /Users/namrataraikwar/Estaty/node_modules/agora-react-native-rtm/android/build/intermediates/packaged_res/debug/packageDebugResources
++io.agora.rtm.ng.react.agora-react-native-rtm-debug-6 /Users/namrataraikwar/Estaty/node_modules/agora-react-native-rtm/android/src/debug/res
++io.agora.rtm.ng.react.agora-react-native-rtm-main-7 /Users/namrataraikwar/Estaty/node_modules/agora-react-native-rtm/android/src/main/res
++gradleHome-0 /Users/namrataraikwar/.gradle
+\ No newline at end of file
+diff --git a/node_modules/agora-react-native-rtm/android/build/intermediates/annotation_processor_list/debug/javaPreCompileDebug/annotationProcessors.json b/node_modules/agora-react-native-rtm/android/build/intermediates/annotation_processor_list/debug/javaPreCompileDebug/annotationProcessors.json
+new file mode 100644
+index 0000000..9e26dfe
+--- /dev/null
++++ b/node_modules/agora-react-native-rtm/android/build/intermediates/annotation_processor_list/debug/javaPreCompileDebug/annotationProcessors.json
+@@ -0,0 +1 @@
++{}
+\ No newline at end of file
+diff --git a/node_modules/agora-react-native-rtm/android/build/intermediates/compile_library_classes_jar/debug/bundleLibCompileToJarDebug/classes.jar b/node_modules/agora-react-native-rtm/android/build/intermediates/compile_library_classes_jar/debug/bundleLibCompileToJarDebug/classes.jar
+new file mode 100644
+index 0000000..3a22fd8
+Binary files /dev/null and b/node_modules/agora-react-native-rtm/android/build/intermediates/compile_library_classes_jar/debug/bundleLibCompileToJarDebug/classes.jar differ
+diff --git a/node_modules/agora-react-native-rtm/android/build/intermediates/compile_r_class_jar/debug/generateDebugRFile/R.jar b/node_modules/agora-react-native-rtm/android/build/intermediates/compile_r_class_jar/debug/generateDebugRFile/R.jar
+new file mode 100644
+index 0000000..89ecf2f
+Binary files /dev/null and b/node_modules/agora-react-native-rtm/android/build/intermediates/compile_r_class_jar/debug/generateDebugRFile/R.jar differ
+diff --git a/node_modules/agora-react-native-rtm/android/build/intermediates/compile_symbol_list/debug/generateDebugRFile/R.txt b/node_modules/agora-react-native-rtm/android/build/intermediates/compile_symbol_list/debug/generateDebugRFile/R.txt
+new file mode 100644
+index 0000000..e69de29
+diff --git a/node_modules/agora-react-native-rtm/android/build/intermediates/incremental/debug/packageDebugResources/compile-file-map.properties b/node_modules/agora-react-native-rtm/android/build/intermediates/incremental/debug/packageDebugResources/compile-file-map.properties
+new file mode 100644
+index 0000000..c11941d
+--- /dev/null
++++ b/node_modules/agora-react-native-rtm/android/build/intermediates/incremental/debug/packageDebugResources/compile-file-map.properties
+@@ -0,0 +1 @@
++#Sun Nov 22 18:59:43 IST 2026
+diff --git a/node_modules/agora-react-native-rtm/android/build/intermediates/incremental/debug/packageDebugResources/merger.xml b/node_modules/agora-react-native-rtm/android/build/intermediates/incremental/debug/packageDebugResources/merger.xml
+new file mode 100644
+index 0000000..fa86d96
+--- /dev/null
++++ b/node_modules/agora-react-native-rtm/android/build/intermediates/incremental/debug/packageDebugResources/merger.xml
+@@ -0,0 +1,2 @@
++<?xml version="1.0" encoding="utf-8"?>
++<merger version="3"><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="main$Generated" generated="true" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="/Users/namrataraikwar/Estaty/node_modules/agora-react-native-rtm/android/src/main/res"/></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="main" generated-set="main$Generated" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~:!&lt;dir>navigation"><source path="/Users/namrataraikwar/Estaty/node_modules/agora-react-native-rtm/android/src/main/res"/></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="debug$Generated" generated="true" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="/Users/namrataraikwar/Estaty/node_modules/agora-react-native-rtm/android/src/debug/res"/></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="debug" generated-set="debug$Generated" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~:!&lt;dir>navigation"><source path="/Users/namrataraikwar/Estaty/node_modules/agora-react-native-rtm/android/src/debug/res"/></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="generated$Generated" generated="true" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"/><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="generated" generated-set="generated$Generated" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~:!&lt;dir>navigation"/><mergedItems/></merger>
+\ No newline at end of file
+diff --git a/node_modules/agora-react-native-rtm/android/build/intermediates/incremental/mergeDebugAssets/merger.xml b/node_modules/agora-react-native-rtm/android/build/intermediates/incremental/mergeDebugAssets/merger.xml
+new file mode 100644
+index 0000000..715070c
+--- /dev/null
++++ b/node_modules/agora-react-native-rtm/android/build/intermediates/incremental/mergeDebugAssets/merger.xml
+@@ -0,0 +1,2 @@
++<?xml version="1.0" encoding="utf-8"?>
++<merger version="3"><dataSet config="main" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="/Users/namrataraikwar/Estaty/node_modules/agora-react-native-rtm/android/src/main/assets"/></dataSet><dataSet config="debug" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="/Users/namrataraikwar/Estaty/node_modules/agora-react-native-rtm/android/src/debug/assets"/></dataSet></merger>
+\ No newline at end of file
+diff --git a/node_modules/agora-react-native-rtm/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/io/agora/rtm/ng/react/AgoraRtmNgModule.class b/node_modules/agora-react-native-rtm/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/io/agora/rtm/ng/react/AgoraRtmNgModule.class
+new file mode 100644
+index 0000000..3b33102
+Binary files /dev/null and b/node_modules/agora-react-native-rtm/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/io/agora/rtm/ng/react/AgoraRtmNgModule.class differ
+diff --git a/node_modules/agora-react-native-rtm/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/io/agora/rtm/ng/react/AgoraRtmNgPackage.class b/node_modules/agora-react-native-rtm/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/io/agora/rtm/ng/react/AgoraRtmNgPackage.class
+new file mode 100644
+index 0000000..88f9cdc
+Binary files /dev/null and b/node_modules/agora-react-native-rtm/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/io/agora/rtm/ng/react/AgoraRtmNgPackage.class differ
+diff --git a/node_modules/agora-react-native-rtm/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/io/agora/rtm/ng/react/AgoraRtmNgSpec.class b/node_modules/agora-react-native-rtm/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/io/agora/rtm/ng/react/AgoraRtmNgSpec.class
+new file mode 100644
+index 0000000..0e0ce2c
+Binary files /dev/null and b/node_modules/agora-react-native-rtm/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/io/agora/rtm/ng/react/AgoraRtmNgSpec.class differ
+diff --git a/node_modules/agora-react-native-rtm/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/io/agora/rtm/ng/react/BuildConfig.class b/node_modules/agora-react-native-rtm/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/io/agora/rtm/ng/react/BuildConfig.class
+new file mode 100644
+index 0000000..6b37349
+Binary files /dev/null and b/node_modules/agora-react-native-rtm/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/io/agora/rtm/ng/react/BuildConfig.class differ
+diff --git a/node_modules/agora-react-native-rtm/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/io/agora/rtm/ng/react/NativeAgoraRtmNgSpec.class b/node_modules/agora-react-native-rtm/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/io/agora/rtm/ng/react/NativeAgoraRtmNgSpec.class
+new file mode 100644
+index 0000000..0260a55
+Binary files /dev/null and b/node_modules/agora-react-native-rtm/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/io/agora/rtm/ng/react/NativeAgoraRtmNgSpec.class differ
+diff --git a/node_modules/agora-react-native-rtm/android/build/intermediates/local_only_symbol_list/debug/parseDebugLocalResources/R-def.txt b/node_modules/agora-react-native-rtm/android/build/intermediates/local_only_symbol_list/debug/parseDebugLocalResources/R-def.txt
+new file mode 100644
+index 0000000..78ac5b8
+--- /dev/null
++++ b/node_modules/agora-react-native-rtm/android/build/intermediates/local_only_symbol_list/debug/parseDebugLocalResources/R-def.txt
+@@ -0,0 +1,2 @@
++R_DEF: Internal format may change without notice
++local
+diff --git a/node_modules/agora-react-native-rtm/android/build/intermediates/manifest_merge_blame_file/debug/processDebugManifest/manifest-merger-blame-debug-report.txt b/node_modules/agora-react-native-rtm/android/build/intermediates/manifest_merge_blame_file/debug/processDebugManifest/manifest-merger-blame-debug-report.txt
+new file mode 100644
+index 0000000..190ba08
+--- /dev/null
++++ b/node_modules/agora-react-native-rtm/android/build/intermediates/manifest_merge_blame_file/debug/processDebugManifest/manifest-merger-blame-debug-report.txt
+@@ -0,0 +1,19 @@
++1<?xml version="1.0" encoding="utf-8"?>
++2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
++3    package="io.agora.rtm.ng.react" >
++4
++5    <uses-sdk android:minSdkVersion="24" />
++5-->INJECTED
++5-->INJECTED
++6
++7    <uses-permission android:name="android.permission.INTERNET" />
++7-->/Users/namrataraikwar/Estaty/node_modules/agora-react-native-rtm/android/src/main/AndroidManifest.xml:4:3-65
++7-->/Users/namrataraikwar/Estaty/node_modules/agora-react-native-rtm/android/src/main/AndroidManifest.xml:4:20-62
++8    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
++8-->/Users/namrataraikwar/Estaty/node_modules/agora-react-native-rtm/android/src/main/AndroidManifest.xml:5:3-79
++8-->/Users/namrataraikwar/Estaty/node_modules/agora-react-native-rtm/android/src/main/AndroidManifest.xml:5:20-76
++9    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
++9-->/Users/namrataraikwar/Estaty/node_modules/agora-react-native-rtm/android/src/main/AndroidManifest.xml:6:3-77
++9-->/Users/namrataraikwar/Estaty/node_modules/agora-react-native-rtm/android/src/main/AndroidManifest.xml:6:20-74
++10
++11</manifest>
+diff --git a/node_modules/agora-react-native-rtm/android/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml b/node_modules/agora-react-native-rtm/android/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml
+new file mode 100644
+index 0000000..548fe8b
+--- /dev/null
++++ b/node_modules/agora-react-native-rtm/android/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml
+@@ -0,0 +1,11 @@
++<?xml version="1.0" encoding="utf-8"?>
++<manifest xmlns:android="http://schemas.android.com/apk/res/android"
++    package="io.agora.rtm.ng.react" >
++
++    <uses-sdk android:minSdkVersion="24" />
++
++    <uses-permission android:name="android.permission.INTERNET" />
++    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
++    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
++
++</manifest>
+\ No newline at end of file
+diff --git a/node_modules/agora-react-native-rtm/android/build/intermediates/navigation_json/debug/extractDeepLinksDebug/navigation.json b/node_modules/agora-react-native-rtm/android/build/intermediates/navigation_json/debug/extractDeepLinksDebug/navigation.json
+new file mode 100644
+index 0000000..0637a08
+--- /dev/null
++++ b/node_modules/agora-react-native-rtm/android/build/intermediates/navigation_json/debug/extractDeepLinksDebug/navigation.json
+@@ -0,0 +1 @@
++[]
+\ No newline at end of file
+diff --git a/node_modules/agora-react-native-rtm/android/build/intermediates/nested_resources_validation_report/debug/generateDebugResources/nestedResourcesValidationReport.txt b/node_modules/agora-react-native-rtm/android/build/intermediates/nested_resources_validation_report/debug/generateDebugResources/nestedResourcesValidationReport.txt
+new file mode 100644
+index 0000000..08f4ebe
+--- /dev/null
++++ b/node_modules/agora-react-native-rtm/android/build/intermediates/nested_resources_validation_report/debug/generateDebugResources/nestedResourcesValidationReport.txt
+@@ -0,0 +1 @@
++0 Warning/Error
+\ No newline at end of file
+diff --git a/node_modules/agora-react-native-rtm/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/io/agora/rtm/ng/react/AgoraRtmNgModule.class b/node_modules/agora-react-native-rtm/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/io/agora/rtm/ng/react/AgoraRtmNgModule.class
+new file mode 100644
+index 0000000..3b33102
+Binary files /dev/null and b/node_modules/agora-react-native-rtm/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/io/agora/rtm/ng/react/AgoraRtmNgModule.class differ
+diff --git a/node_modules/agora-react-native-rtm/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/io/agora/rtm/ng/react/AgoraRtmNgPackage.class b/node_modules/agora-react-native-rtm/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/io/agora/rtm/ng/react/AgoraRtmNgPackage.class
+new file mode 100644
+index 0000000..88f9cdc
+Binary files /dev/null and b/node_modules/agora-react-native-rtm/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/io/agora/rtm/ng/react/AgoraRtmNgPackage.class differ
+diff --git a/node_modules/agora-react-native-rtm/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/io/agora/rtm/ng/react/AgoraRtmNgSpec.class b/node_modules/agora-react-native-rtm/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/io/agora/rtm/ng/react/AgoraRtmNgSpec.class
+new file mode 100644
+index 0000000..0e0ce2c
+Binary files /dev/null and b/node_modules/agora-react-native-rtm/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/io/agora/rtm/ng/react/AgoraRtmNgSpec.class differ
+diff --git a/node_modules/agora-react-native-rtm/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/io/agora/rtm/ng/react/BuildConfig.class b/node_modules/agora-react-native-rtm/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/io/agora/rtm/ng/react/BuildConfig.class
+new file mode 100644
+index 0000000..6b37349
+Binary files /dev/null and b/node_modules/agora-react-native-rtm/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/io/agora/rtm/ng/react/BuildConfig.class differ
+diff --git a/node_modules/agora-react-native-rtm/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/io/agora/rtm/ng/react/NativeAgoraRtmNgSpec.class b/node_modules/agora-react-native-rtm/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/io/agora/rtm/ng/react/NativeAgoraRtmNgSpec.class
+new file mode 100644
+index 0000000..0260a55
+Binary files /dev/null and b/node_modules/agora-react-native-rtm/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/io/agora/rtm/ng/react/NativeAgoraRtmNgSpec.class differ
+diff --git a/node_modules/agora-react-native-rtm/android/build/intermediates/symbol_list_with_package_name/debug/generateDebugRFile/package-aware-r.txt b/node_modules/agora-react-native-rtm/android/build/intermediates/symbol_list_with_package_name/debug/generateDebugRFile/package-aware-r.txt
+new file mode 100644
+index 0000000..0f151f2
+--- /dev/null
++++ b/node_modules/agora-react-native-rtm/android/build/intermediates/symbol_list_with_package_name/debug/generateDebugRFile/package-aware-r.txt
+@@ -0,0 +1 @@
++io.agora.rtm.ng.react
+diff --git a/node_modules/agora-react-native-rtm/android/build/outputs/logs/manifest-merger-debug-report.txt b/node_modules/agora-react-native-rtm/android/build/outputs/logs/manifest-merger-debug-report.txt
+new file mode 100644
+index 0000000..dbae380
+--- /dev/null
++++ b/node_modules/agora-react-native-rtm/android/build/outputs/logs/manifest-merger-debug-report.txt
+@@ -0,0 +1,29 @@
++-- Merging decision tree log ---
++manifest
++ADDED from /Users/namrataraikwar/Estaty/node_modules/agora-react-native-rtm/android/src/main/AndroidManifest.xml:1:1-8:12
++INJECTED from /Users/namrataraikwar/Estaty/node_modules/agora-react-native-rtm/android/src/main/AndroidManifest.xml:1:1-8:12
++	package
++		ADDED from /Users/namrataraikwar/Estaty/node_modules/agora-react-native-rtm/android/src/main/AndroidManifest.xml:2:11-42
++		INJECTED from /Users/namrataraikwar/Estaty/node_modules/agora-react-native-rtm/android/src/main/AndroidManifest.xml
++	xmlns:android
++		ADDED from /Users/namrataraikwar/Estaty/node_modules/agora-react-native-rtm/android/src/main/AndroidManifest.xml:1:11-69
++uses-permission#android.permission.INTERNET
++ADDED from /Users/namrataraikwar/Estaty/node_modules/agora-react-native-rtm/android/src/main/AndroidManifest.xml:4:3-65
++	android:name
++		ADDED from /Users/namrataraikwar/Estaty/node_modules/agora-react-native-rtm/android/src/main/AndroidManifest.xml:4:20-62
++uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
++ADDED from /Users/namrataraikwar/Estaty/node_modules/agora-react-native-rtm/android/src/main/AndroidManifest.xml:5:3-79
++	android:name
++		ADDED from /Users/namrataraikwar/Estaty/node_modules/agora-react-native-rtm/android/src/main/AndroidManifest.xml:5:20-76
++uses-permission#android.permission.ACCESS_NETWORK_STATE
++ADDED from /Users/namrataraikwar/Estaty/node_modules/agora-react-native-rtm/android/src/main/AndroidManifest.xml:6:3-77
++	android:name
++		ADDED from /Users/namrataraikwar/Estaty/node_modules/agora-react-native-rtm/android/src/main/AndroidManifest.xml:6:20-74
++uses-sdk
++INJECTED from /Users/namrataraikwar/Estaty/node_modules/agora-react-native-rtm/android/src/main/AndroidManifest.xml reason: use-sdk injection requested
++INJECTED from /Users/namrataraikwar/Estaty/node_modules/agora-react-native-rtm/android/src/main/AndroidManifest.xml
++INJECTED from /Users/namrataraikwar/Estaty/node_modules/agora-react-native-rtm/android/src/main/AndroidManifest.xml
++	android:targetSdkVersion
++		INJECTED from /Users/namrataraikwar/Estaty/node_modules/agora-react-native-rtm/android/src/main/AndroidManifest.xml
++	android:minSdkVersion
++		INJECTED from /Users/namrataraikwar/Estaty/node_modules/agora-react-native-rtm/android/src/main/AndroidManifest.xml
+diff --git a/node_modules/agora-react-native-rtm/android/build/tmp/compileDebugJavaWithJavac/previous-compilation-data.bin b/node_modules/agora-react-native-rtm/android/build/tmp/compileDebugJavaWithJavac/previous-compilation-data.bin
+new file mode 100644
+index 0000000..0db2bb1
+Binary files /dev/null and b/node_modules/agora-react-native-rtm/android/build/tmp/compileDebugJavaWithJavac/previous-compilation-data.bin differ
