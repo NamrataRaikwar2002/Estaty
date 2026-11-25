@@ -77,6 +77,12 @@ yarn-error.log
 # env
 .env
 
+# token-server
+token-server/.env
+token-server/.env.*
+!token-server/.env.example
+token-server/node_modules/
+
 #skills
 .agents
 .claude

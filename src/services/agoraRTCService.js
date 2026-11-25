@@ -23,24 +23,26 @@ import { callSignaling, CALL_STATUS } from './callSignaling';
 import { navigate } from '../navigation/NavigationService';
 import { Platform, PermissionsAndroid } from 'react-native';
 import Config from 'react-native-config';
+import { fetchRtcTokenForUser } from './tokenClient';
 
 // ==================== CONFIGURATION ====================
 // Using the exact working App ID from tested agoraService2.jsx
-// Using TOKENLESS mode (empty token) for dynamic channels/UIDs
-// CRITICAL: Requires "App Certificate" DISABLED in Agora Console for this App ID
-// Go to Agora Console → Project → App Certificate → Disable
+// App Certificate MUST BE ENABLED in Agora Console for token-based auth
+// Go to Agora Console → Project → App Certificate → Enable
 export const AGORA_APP_ID = Config.AGORA_APP_ID;
-export const AGORA_TOKEN = Config.AGORA_TOKEN; // Empty for tokenless mode - REQUIRED for dynamic channels
-export const CALL_CHANNEL_PREFIX = 'estaty_call_ch_';
+export const CALL_CHANNEL_PREFIX = 'estaty_ch_here_';
+
+// Token-based authentication toggle
+// Set AGORA_USE_TOKEN=true in .env when token server is running with App Certificate enabled
+export const AGORA_USE_TOKEN = Config.AGORA_USE_TOKEN === 'true';
 
 // TEST MODE: Use fixed channel for audio testing
 // Set to true to use fixed channel (estaty_call_ch_) instead of dynamic Firebase channels
-export const USE_FIXED_TEST_CHANNEL = true;
+export const USE_FIXED_TEST_CHANNEL = false;
 export const FIXED_TEST_CHANNEL = CALL_CHANNEL_PREFIX; // 'estaty_call_ch_'
 
 console.log('[AgoraRTCService] AGORA_APP_ID:', AGORA_APP_ID ? 'SET' : 'UNDEFINED');
-console.log('[AgoraRTCService] Running in TOKENLESS mode - ENSURE App Certificate is DISABLED in Agora Console!');
-console.log('[AgoraRTCService] If you see "App ID + Token required", disable App Certificate at console.agora.io');
+console.log('[AgoraRTCService] AGORA_USE_TOKEN:', AGORA_USE_TOKEN, Config.AGORA_USE_TOKEN, Config.AGORA_USE_TOKEN === 'true');
 console.log('[AgoraRTCService] TEST MODE - USE_FIXED_TEST_CHANNEL:', USE_FIXED_TEST_CHANNEL);
 
 // Call types
@@ -800,6 +802,7 @@ export async function cancelCall() {
 /**
  * Join RTC channel - WORKING IMPLEMENTATION from tested agoraService2.jsx
  * Critical: Uses ChannelProfileCommunication + Broadcaster + publishMicrophoneTrack + autoSubscribeAudio
+ * Now supports token-based authentication via token server
  */
 export async function joinChannel(channelName) {
   const joinStart = Date.now();
@@ -814,7 +817,8 @@ export async function joinChannel(channelName) {
     hasEngine: !!engine,
     callType,
     localAudioEnabled,
-    testMode: USE_FIXED_TEST_CHANNEL
+    testMode: USE_FIXED_TEST_CHANNEL,
+    useToken: AGORA_USE_TOKEN
   });
 
   if (!engine) throw new Error('Engine not initialized');
@@ -832,9 +836,25 @@ export async function joinChannel(channelName) {
     }
   }
 
-  // Use tokenless mode (empty string) for dynamic channels/UIDs
-  // CRITICAL: Requires App Certificate DISABLED in Agora Console
-  const token = AGORA_TOKEN; // Empty string for tokenless mode
+  // Get token - either from token server (if enabled) or use tokenless mode
+  let token;
+  if (AGORA_USE_TOKEN && currentUserId) {
+    try {
+      console.log('[AgoraRTCService][JOIN_CHANNEL] Fetching RTC token from token server...');
+      const tokenData = await fetchRtcTokenForUser(effectiveChannelName, currentUserId);
+      token = tokenData.token;
+      console.log('[AgoraRTCService][JOIN_CHANNEL] Token fetched successfully, expires in:', tokenData.expiresIn, 'seconds');
+    } catch (tokenError) {
+      console.error('[AgoraRTCService][JOIN_CHANNEL] Failed to fetch token:', tokenError);
+      // Fallback to tokenless mode if token fetch fails (for development)
+      console.warn('[AgoraRTCService][JOIN_CHANNEL] Falling back to tokenless mode');
+      token = '';
+    }
+  } else {
+    // Tokenless mode (empty string) - requires App Certificate DISABLED in Agora Console
+    token = '';
+    console.log('[AgoraRTCService][JOIN_CHANNEL] Using tokenless mode (App Certificate must be DISABLED in Agora Console)');
+  }
 
   // WORKING IMPLEMENTATION: Use the same options as tested agoraService2.jsx
   // - ChannelProfileCommunication (not LiveBroadcasting)
@@ -853,7 +873,7 @@ export async function joinChannel(channelName) {
     joinOptions.publishCameraTrack = true;
     joinOptions.autoSubscribeVideo = true;
   }
-  // remoteUid=currentUserUid
+
   console.log('[AgoraRTCService][JOIN_CHANNEL] Joining with UID:', currentUserUid, 'channel:', effectiveChannelName, 'options:', joinOptions);
 
   // Use numeric UID (not string userId) - required by Agora
