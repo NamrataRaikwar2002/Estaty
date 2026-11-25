@@ -291,7 +291,7 @@ const OutgoingCallScreen = ({ route, navigation }) => {
           ]}
         >
           <Text style={styles.statusText}>{statusText}</Text>
-          {!isCancelled && callState !== CALL_sSTATES.FAILED && (
+          {!isCancelled && callState !== CALL_STATES.FAILED && (
             <Animated.Text
               style={styles.callingDots}
             >
