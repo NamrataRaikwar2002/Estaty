@@ -187,7 +187,7 @@ const LoginScreen = ({ navigation }) => {
         </View>
 
         {/* Quick Login Buttons (Dev Only) */}
-        {__DEV__ && (
+        {/* {__DEV__ && ( */}
           <View style={styles.quickLoginSection}>
             <Divider label="Quick Login (Dev)" style={styles.quickLoginDivider} />
             <View style={styles.quickLoginButtons}>
@@ -206,7 +206,7 @@ const LoginScreen = ({ navigation }) => {
               ))}
             </View>
           </View>
-        )}
+        {/* )} */}
 
         {/* Sign Up Link */}
         <View style={styles.signupSection}>
