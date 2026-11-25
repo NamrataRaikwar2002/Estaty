@@ -36,6 +36,11 @@
 	</dict>
 	<key>NSLocationWhenInUseUsageDescription</key>
 	<string></string>
+	<!-- Permissions for Agora RTC -->
+	<key>NSCameraUsageDescription</key>
+	<string>Estaty needs access to camera for video calls</string>
+	<key>NSMicrophoneUsageDescription</key>
+	<string>Estaty needs access to microphone for audio/video calls</string>
 	<key>RCTNewArchEnabled</key>
 	<true/>
 	<key>UIApplicationSceneManifest</key>
