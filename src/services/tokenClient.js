@@ -16,7 +16,9 @@ import { userIdToUid } from './agoraRTCService';
  * Uses LAN IP for physical device testing (not localhost)
  * Configure in .env: TOKEN_SERVER_URL=http://YOUR_LAN_IP:3001
  */
-const TOKEN_SERVER_URL = Config.TOKEN_SERVER_URL || 'http://localhost:3001';
+// Normalize URL: remove trailing slash to avoid //token
+const rawUrl = Config.TOKEN_SERVER_URL || 'http://localhost:3001';
+const TOKEN_SERVER_URL = rawUrl.replace(/\/$/, '');
 
 /**
  * Request an RTC token from the token server
@@ -48,6 +50,14 @@ export async function fetchRtcToken(channelName, uid) {
         uid,
       }),
     });
+
+    // Check content-type before parsing JSON - HTML error pages cause "Unexpected character: <"
+    const contentType = response.headers.get('content-type');
+    if (!contentType || !contentType.includes('application/json')) {
+      const text = await response.text();
+      console.error('[TokenClient] Non-JSON response (likely HTML error page):', text.slice(0, 200));
+      throw new Error(`Server returned ${response.status} ${response.statusText} (not JSON). Check TOKEN_SERVER_URL in .env - is the token server running on your LAN IP?`);
+    }
 
     const data = await response.json();
 
